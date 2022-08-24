@@ -27,3 +27,25 @@ const capitalizeString = (str) => {
 capitalizeString("hi my name is rajat")
 
 ```
+
+### Question 2: Reverse a string Using JavaScript
+For example: 
+
+input: "hi my name is rajat"
+
+output: tajar si eman ym ih  
+
+```javascript
+
+function reverseStr(str){
+  let result =""
+  for(let i=str.length-1; i>=0; i--){
+   result += str[i]
+}
+  return result;
+}
+
+const x = reverseStr("hi my name is rajat")
+console.log(x)
+
+```
