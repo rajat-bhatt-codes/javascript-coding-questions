@@ -1,4 +1,7 @@
 
+# Javascript Coding Questions
+
+
 ### Question 1: Capitalize First Letter Of Each Word Using JavaScript
 For example: 
 
@@ -23,5 +26,14 @@ const capitalizeString = (str) => {
 
 capitalizeString("hi my name is rajat")
 
+```
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run deploy
 ```
 
