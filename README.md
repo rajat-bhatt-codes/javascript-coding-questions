@@ -27,8 +27,3 @@ const capitalizeString = (str) => {
 capitalizeString("hi my name is rajat")
 
 ```
-
-```bash
-  npm run deploy
-```
-
