@@ -28,11 +28,6 @@ capitalizeString("hi my name is rajat")
 
 ```
 
-
-## Deployment
-
-To deploy this project run
-
 ```bash
   npm run deploy
 ```
