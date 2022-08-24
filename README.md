@@ -49,3 +49,34 @@ const x = reverseStr("hi my name is rajat")
 console.log(x)
 
 ```
+
+
+### Question 3: Count all the vowels in given string Using JavaScript
+For example: 
+
+input: "hi my name is rajat"
+
+output: 6  
+
+input: "aeiou"
+
+output: 5 
+
+```javascript
+
+function countVowel(str){
+  let count = 0
+  let vowels = ['a','e','i','o','u']
+
+  for(let i=0; i<str.length; i++){
+    if(vowels.includes(str[i].toLowerCase())){
+      count ++;
+    }
+  }
+  return count
+}
+
+const x = countVowel("hi my name is rajat")
+console.log(x)
+
+```
