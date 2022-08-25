@@ -80,3 +80,33 @@ const x = countVowel("hi my name is rajat")
 console.log(x)
 
 ```
+### Question 4: Remove duplicate from array Using JavaScript
+For example: 
+
+input: [1, 2, 33, 4, 5, 4, 2, 33]
+
+output: [1, 2, 33, 4, 5]
+
+```javascript
+//first solution
+let arr =[1, 2, 33, 4, 5, 4, 2, 33]
+
+console.log([... new Set(arr)])
+```
+
+```javascript
+//Second solution
+function removeDuplicate(arr) {
+  let tempArr = []
+  arr.forEach((item) => {
+    if (!tempArr.includes(item)) {
+      tempArr.push(item)
+    }
+  })
+  return tempArr
+}
+
+const x=removeDuplicate([1, 2, 33, 4, 5, 4, 2, 33])
+console.log(x)
+
+```
