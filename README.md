@@ -110,3 +110,29 @@ const x=removeDuplicate([1, 2, 33, 4, 5, 4, 2, 33])
 console.log(x)
 
 ```
+### Question 5: Find max and in values in a given array
+For example: 
+
+input: [1, 2, 33, 4, 5, 4, 2, 33]
+
+output: max=33, min=1
+
+```javascript
+
+function findMaxMin(arr) {
+  let max = -100000;
+  let min = 100000;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > max) {
+      max = arr[i]
+    } else if (arr[i] < min) {
+      min = arr[i]
+    }
+  }
+  return [max, min]
+}
+const result =  findMaxMin( [1, 144, 55, 0]) 
+console.log(`max = ${result[0]} & min = ${result[1]}`)
+
+```
