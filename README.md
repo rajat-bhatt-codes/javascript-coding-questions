@@ -136,3 +136,24 @@ const result =  findMaxMin( [1, 144, 55, 0])
 console.log(`max = ${result[0]} & min = ${result[1]}`)
 
 ```
+
+### Question 6: FizzBuzz Problem( if number is divided by 3 print fizz or if number is divided by 5 print buzz or if number is divided by 5 & 3 print fizzbuzz)
+For example: 
+
+```javascript
+function fizzBuzz(n){
+  for(let i=1; i<=n; i++){
+    if(i%3 === 0 && i%5 === 0){
+      console.log("FizzBuzz")
+    }else if(i%3 === 0){
+      console.log("Fizz")
+    }else if(i%5 === 0){
+      console.log("Buzz")
+    }else{
+      console.log(i)
+    }
+  }
+}
+
+fizzBuzz(15)
+```
