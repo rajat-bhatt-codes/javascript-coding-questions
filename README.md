@@ -2,7 +2,7 @@
 # Javascript Coding Questions
 
 
-## Question 1: Capitalize First Letter Of Each Word Using JavaScript
+### Question 1: Capitalize First Letter Of Each Word Using JavaScript
 For example: 
 
 input: "there is a new book strore"
@@ -27,6 +27,7 @@ const capitalizeString = (str) => {
 capitalizeString("hi my name is rajat")
 
 ```
+___
 
 ### Question 2: Reverse a string Using JavaScript
 For example: 
@@ -49,7 +50,7 @@ const x = reverseStr("hi my name is rajat")
 console.log(x)
 
 ```
-
+___
 
 ### Question 3: Count all the vowels in given string Using JavaScript
 For example: 
@@ -80,6 +81,7 @@ const x = countVowel("hi my name is rajat")
 console.log(x)
 
 ```
+___
 ### Question 4: Remove duplicate from array Using JavaScript
 For example: 
 
@@ -110,6 +112,7 @@ const x=removeDuplicate([1, 2, 33, 4, 5, 4, 2, 33])
 console.log(x)
 
 ```
+___
 ### Question 5: Find max and in values in a given array
 For example: 
 
@@ -136,7 +139,7 @@ const result =  findMaxMin( [1, 144, 55, 0])
 console.log(`max = ${result[0]} & min = ${result[1]}`)
 
 ```
-
+___
 ### Question 6: FizzBuzz Problem( if number is divided by 3 print fizz or if number is divided by 5 print buzz or if number is divided by 5 & 3 print fizzbuzz)
 For example: 
 
@@ -157,3 +160,4 @@ function fizzBuzz(n){
 
 fizzBuzz(15)
 ```
+___
