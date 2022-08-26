@@ -2,7 +2,7 @@
 # Javascript Coding Questions
 
 
-### Question 1: Capitalize First Letter Of Each Word Using JavaScript
+## Question 1: Capitalize First Letter Of Each Word Using JavaScript
 For example: 
 
 input: "there is a new book strore"
