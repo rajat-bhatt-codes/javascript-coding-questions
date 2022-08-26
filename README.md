@@ -161,3 +161,23 @@ function fizzBuzz(n){
 fizzBuzz(15)
 ```
 ___
+
+### Question 7: Reverse a String without Changing Position of words
+For example: 
+input: hi my name is rajat
+
+output: ih ym eman si tajar
+
+```javascript
+function reverseStr(str){
+  let tempArr = str.split(" ")
+  const resultArr =tempArr.map(item =>{
+    return item.split("").reverse().join("")
+  })
+  return resultArr.join(" ")
+}
+
+const x = reverseStr("hi my name is rajat")
+console.log(x)
+```
+___
