@@ -200,9 +200,10 @@ const res = fibonacci(10)
 console.log(res)
 ```
 ___
-### Question 9: wap to i-guve simple output
+### Question 9: wap to give sample output
 For example: 
 input: [1, 2, 3, 4, 5]
+
        [2, 3, 4]
 
 output: [3, 5, 7, 4]
