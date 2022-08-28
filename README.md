@@ -200,3 +200,34 @@ const res = fibonacci(10)
 console.log(res)
 ```
 ___
+### Question 9: wap to i-guve simple output
+For example: 
+input: [1, 2, 3, 4, 5]
+       [2, 3, 4]
+
+output: [3, 5, 7, 4]
+
+```javascript
+let x = [1, 2, 3, 4, 5]
+let y = [2, 3, 4, 12, 15, 0, 3]
+
+let result = []
+
+if (x.length > y.length) {
+  for (let i = 0; i < y.length; i++) {
+    result.push(x[i] + y[i])
+  }
+  let arr = x.slice(result.length, x.length)
+  result.push(...arr)
+} else {
+  for (let i = 0; i < x.length; i++) {
+    result.push(x[i] + y[i])
+  }
+  let arr = y.slice(result.length, y.length)
+  result.push(...arr)
+}
+
+console.log(result)
+```
+___
+
